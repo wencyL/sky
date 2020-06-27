@@ -14,7 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "webpack",
+    "start": "webpack-dev-server --config build/webpack.config.js --mode development",
     "build": "webpack",
     "test": "webpack"
   },
